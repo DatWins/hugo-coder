@@ -1,6 +1,24 @@
 <h1>{{ .Site.Params.author }}</h1>
+
+<!-- 1. Always show these two hard-coded lines -->
+<h2>
+  <a href="/intro/data_science/">Data Science</a>
+</h2>
+
+<h2>
+  <a href="/intro/mathematics/">Mathematics</a> and <a href="/intro/statistics/">Statistics</a>
+</h2>
+
+
+<!-- 2. Then continue showing anything in .Site.Params.info (its original behavior) -->
+
+{{/*
 {{ if reflect.IsSlice .Site.Params.info }}
-<h2>{{ range .Site.Params.info }}{{ . | markdownify }}<br>{{ end}}</h2>
-{{ else }}
-<h2>{{ .Site.Params.info | markdownify }} </h2>
+  {{ range .Site.Params.info }}
+    <h2>{{ . | markdownify }}</h2>
+  {{ end }}
+{{ else if .Site.Params.info }}
+  <!-- If .Site.Params.info isn't a slice but still exists (a string) -->
+  <h2>{{ .Site.Params.info | markdownify }}</h2>
 {{ end }}
+*/}}
