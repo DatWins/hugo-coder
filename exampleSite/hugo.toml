@@ -1,5 +1,5 @@
 baseURL = "https://cute-sprite-4feff0.netlify.app/"
-title = "Walter White"
+title = "The Traveler"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -21,7 +21,7 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "Walter White"
+author = "The Traveler"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "John Doe's personal website"
 keywords = "blog,developer,personal"
