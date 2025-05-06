@@ -1,5 +1,5 @@
 baseURL = "https://cute-sprite-4feff0.netlify.app/"
-title = "Mary Jane"
+title = "Walter White"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -21,7 +21,7 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "John Doe"
+author = "Walter White"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "John Doe's personal website"
 keywords = "blog,developer,personal"
