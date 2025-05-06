@@ -154,12 +154,12 @@ weight = 2
 url = "posts/"
 
 [[languages.en.menu.main]]
-name = "Projects"
+name = "Photos"
 weight = 3
-url = "projects/"
+url = "photos/"
 
 [[languages.en.menu.main]]
-name = "Contact me"
+name = "Tags"
 weight = 5
-url = "contact/"
+url = "tags/"
 
