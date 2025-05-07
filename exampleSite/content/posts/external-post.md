@@ -1,6 +1,7 @@
 +++
 authors = ["Lone Coder"]
 date = "2023-07-06"
+draft: true
 title = "External Page: Hugo Coder Wiki"
 slug = "hugo-coder-wiki"
 tags = [
